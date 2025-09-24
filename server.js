@@ -92,10 +92,11 @@ app.delete(
   }
 );
 
-app.get("/", (req, res) => {
-  res.send("Server is running! This is the backend.");
-});
+// app.get("/", (req, res) => {
+//   res.send("Server is running! This is the backend.");
+// });
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
